@@ -100,7 +100,6 @@ body {
     display: block;
 }
 
-
 .image {
     width: 100%;
 }
@@ -142,7 +141,6 @@ body {
     background-image: url(./images/Choosen_active.svg);
 }
 
-
 .footer {
     height: 100vh;
     background-image: url(./images/7.png);
@@ -153,12 +151,18 @@ body {
 
 .footer__overlay {
     display: flex;
+    justify-content: center;  /* центрируем по горизонтали */
+    align-items: center;      /* центрируем по вертикали */
     height: 100%;
     background: linear-gradient(180deg, #0F0804 0%, rgba(0, 0, 0, 0.6) 100%);
 }
 
 .footer__text {
-    margin: auto;
     font-size: 40px;
     color: white;
+    text-align: center;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.6); /* затемнение для читаемости */
+    border-radius: 12px;
+    max-width: 80%;
 }
